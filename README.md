@@ -1,2 +1,2 @@
-![](send-arp_attacker_video.mp4)
-![](send-arp_sender_video.mp4)
+- [Attacker video](./send-arp_attacker_video.mp4)
+- [Sender video](./send-arp_sender_video.mp4)
