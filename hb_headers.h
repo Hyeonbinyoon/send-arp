@@ -38,7 +38,7 @@
 #define ARP_HARDWARE_ETHERNET    0x0001
 #define ARP_OPCODE_REQUEST       0x0001
 #define ARP_OPCODE_REPLY         0x0002
-
+#define ARP_PROTOCOL_ADDR_LEN_IP 0x04
 
 
 // ============================================================

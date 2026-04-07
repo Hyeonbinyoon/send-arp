@@ -118,7 +118,7 @@ bool get_other_mac(pcap_t* pcap,
     packet.arp.hardware_type = htons(ARP_HARDWARE_ETHERNET);
     packet.arp.protocol_type = htons(ETHERTYPE_IPV4);
     packet.arp.hardware_addr_len = MAC_ADDR_LEN;
-    packet.arp.protocol_addr_len = 4;
+    packet.arp.protocol_addr_len = ARP_PROTOCOL_ADDR_LEN_IP;
     packet.arp.opcode = htons(ARP_OPCODE_REQUEST);
 
     packet.arp.sender_mac = my_mac;
